@@ -14,9 +14,6 @@ module.exports = {
                     routes: ['/','/about'],
                     // You have to configure or you won't precompile
                     renderer: new Renderer({
-                        inject: {
-                            foo: 'bar'
-                        },
                         // In main.js, document.dispatchEvent(new Event('render-event')) should correspond to the event name of both.
                         renderAfterDocumentEvent: 'render-event'
                     })
