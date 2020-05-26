@@ -17,7 +17,6 @@ module.exports = {
                         inject: {
                             foo: 'bar'
                         },
-                        headless: false,
                         // In main.js, document.dispatchEvent(new Event('render-event')) should correspond to the event name of both.
                         renderAfterDocumentEvent: 'render-event'
                     })
