@@ -14,6 +14,10 @@
 export default {
   name: 'App',
   components: {
+  },
+  metaInfo: {
+    title: 'Default App Title',
+    titleTemplate: '%s | vue-meta Example App'
   }
 }
 </script>
