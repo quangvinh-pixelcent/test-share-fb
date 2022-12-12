@@ -14,7 +14,7 @@
   "private": true,
   "dependencies": {
     "core-js": "^3.6.4",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "vue": "^2.6.11",
     "vue-meta": "^2.3.3",
     "vue-router": "^3.2.0",
